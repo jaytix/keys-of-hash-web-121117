@@ -9,7 +9,7 @@ class Hash
         #binding.pry
           if stats == argumentElement
             #binding.pry
-            array.push(string)
+            array.push(stats)
             end
           end
         end
