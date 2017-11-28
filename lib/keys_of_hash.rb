@@ -8,7 +8,7 @@ class Hash
       animal.each do |stats|
         #binding.pry
           if stats == argumentElement
-            #binding.pry
+            binding.pry
             array.push(stats)
           end
         end
