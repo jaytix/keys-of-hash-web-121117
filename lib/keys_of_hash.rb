@@ -8,7 +8,6 @@ class Hash
         #binding.pry
           if stats == arguments
             array.push(string)
-            end
           end
         end
       end
