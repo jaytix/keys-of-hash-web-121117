@@ -6,7 +6,7 @@ class Hash
     self.each do |animal|
       animal.each do |stats|
         stats.each do |string|
-          if string == *arguments
+          if string == arguments
             array.push(string)
             end
           end
