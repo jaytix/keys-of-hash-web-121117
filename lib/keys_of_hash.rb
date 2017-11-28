@@ -5,8 +5,9 @@ class Hash
     array = []
     self.each do |animal|
       animal.each do |stats|
+        binding.pry
           if stats == arguments
-            binding.pry
+            #binding.pry
             array.push(string)
           end
         end
