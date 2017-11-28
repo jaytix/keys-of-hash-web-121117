@@ -10,6 +10,7 @@ class Hash
           if stats == argumentElement
             binding.pry
             array.push(string)
+            end
           end
         end
       end
