@@ -6,9 +6,7 @@ class Hash
     arguments.each do |argumentElement|
     self.each do |animal|
       animal.each do |stats|
-        #binding.pry
           if stats == argumentElement
-            #binding.pry
             array.push(animal[0])
           end
         end
