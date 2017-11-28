@@ -10,10 +10,10 @@ class Hash
           if stats == argumentElement
             #binding.pry
             array.push(stats)
-            end
           end
         end
       end
-    return array
+      return array
+    end
   end
 end
