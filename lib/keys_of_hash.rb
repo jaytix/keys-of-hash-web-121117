@@ -3,10 +3,11 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     array = []
+    arguments.each do |argumentElement|
     self.each do |animal|
       animal.each do |stats|
         binding.pry
-          if stats == arguments
+          if stats == argumentElement
             #binding.pry
             array.push(string)
           end
