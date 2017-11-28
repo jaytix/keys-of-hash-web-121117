@@ -8,7 +8,6 @@ class Hash
         stats.each do |string|
           if string == *arguments
             array.push(string)
-    binding.pry
         end
       end
     return array
